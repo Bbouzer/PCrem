@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <style>
+        body {
+            font-family: "Chicago", sans-serif; /* Шрифт Chicago */
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5dc; /* Нежно кремовый цвет фона */
+        }
+        h1 {
+            text-align: center;
+            color: #8B4513; /* Коричневый цвет заголовка */
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px; /* Ограничиваем максимальную ширину */
+            margin: auto;
+        }
+        .column {
+            background: #d9d9a6; /* Цвет прямоугольников на тон темнее фона */
+            border: 5px solid #ccc; /* Увеличенные стенки */
+            border-radius: 10px; /* Закругленные углы */
+            margin: 10px;
+            padding: 20px; /* Увеличенные внутренние отступы */
+            flex: 1; /* Занимает равное пространство */
+            min-width: 250px; /* Минимальная ширина столбца */
+            text-align: left; /* Сдвигаем текст к правому краю */
+        }
+        .column h2 {
+            text-transform: uppercase; /* Большие буквы */
+            margin: 0;
+            color: #808000; /* Коричневый цвет текста */
+        }
+        .column p {
+            color: #808000; /* Темный цвет текста для описания */
+        }
+        .social-links {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <h1>Контактная информация</h1>
+    <div class="contact-info">
+        <div class="column">
+            <h2>Телефон:</h2>
+            <p>+7 (924) 249 12 02</p>
+        </div>
+        <div class="column">
+            <h2>Email:</h2>
+            <p>timurbelobragin@icloud.com</p>
+        </div>
+        <div class="column">
+            <h2>Социальные сети:</h2>
+            <div class="social-links">
+                <a href="https://vk.com/id612302342" target="_blank">VK</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

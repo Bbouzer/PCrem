@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт ПК</title>
+    <style>
+        body {
+            font-family: "Chicago", sans-serif; /* Шрифт Chicago */
+            margin: 0;
+            padding: 20px;
+            background-color: #fffff0; /* Нежно кремовый цвет фона */
+        }
+        h1 {
+            text-align: center;
+            color: #808000; /* Коричневый цвет заголовка */
+        }
+        .service {
+            background: #fffacd; /* Цвет прямоугольников */
+            border: 8px solid #ccc; /* Увеличенные стенки */
+            border-radius: 10px; /* Закругленные углы */
+            margin: 20px 0; /* Отступы сверху и снизу */
+            padding: 20px; /* Внутренние отступы */
+            text-align: left; /* Сдвигаем текст к правому краю */
+            cursor: pointer; /* Указатель при наведении */
+            transition: transform 0.2s; /* Плавный переход при изменении стиля */
+        }
+        .service:hover {
+            transform: translateY(-5px); /* Всплытие при наведении */
+        }
+        .service h2 {
+            text-transform: uppercase; /* Большие буквы */
+            margin: 0;
+            color: #808000; /* Коричневый цвет текста */
+        }
+        .service p {
+            color: #808000; /* Темный цвет текста для описания */
+        }
+        .service img {
+            max-width: 100%; /* Ограничиваем ширину изображения */
+            height: auto; /* Автоматическая высота */
+        }
+    </style>
+</head>
+<body>
+    <h1>Услуги по ремонту ПК</h1>
+    
+    <div class="service" onclick="location.href='информация.html';"> <!-- Переход на информационную страницу -->
+        <h2>Услуга 1: Устранение неполадок</h2>
+        <img src="https://www1.tutoronline.ru:2053/fapi/api/content/file/gdzfileprod/gdzFiles/fdbbdd60-eb10-4796-ba44-cfb8e37dcee5_sparks-caused-short-circuit-computer-causes-computers-old-power-cords-not-standard-dangerous-concepts-electric-188014479.jpg" alt="Устранение неполадок"
+width="400" height="300"> 
+        <p>Комплексное устранение неполадок с гарантией быстрого выявления и исправления проблем.</p>
+    </div>
+
+    <div class="service" onclick="location.href='информация.html';"> <!-- Переход на информационную страницу -->
+        <h2>Услуга 2: Замена комплектующих</h2>
+        <img src="https://avatars.mds.yandex.net/i?id=76178e578fb58d4c7bf8be95b404550c4602d46d-2925590-images-thumbs&n=13" alt="Замена комплектующих">
+        <p>Качественная замена комплектующих с соблюдением всех стандартов и гарантией.</p>
+    </div>
+
+    <div class="service" onclick="location.href='информация.html';"> <!-- Переход на информационную страницу -->
+        <h2>Услуга 3: Установка ПО</h2>
+        <img src="https://avatars.mds.yandex.net/get-ydo/4362967/2a0000017b7914a44bc2d199cf786021100a/diploma" alt="Установка ПО"
+     width="300" height="200">
+        <p>Установка и настройка программного обеспечения с учетом ваших потребностей.</p>
+    </div>
+    
+    <div class="service" onclick="location.href='информация.html';"> <!-- Переход на информационную страницу -->
+        <h2>Услуга 4: Обслуживание ПК</h2>
+        <img src="https://i.playground.ru/e/XAUj_maq7pzQoEEjR1zm-Q.jpeg" alt="Обслуживание ПК"
+  width="400" height="300">
+        <p>Регулярное обслуживание компьютера для продления его срока службы.</p>
+    </div>
+
+</body>
+</html>
